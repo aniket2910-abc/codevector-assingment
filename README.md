@@ -26,3 +26,15 @@ pip install fastapi uvicorn supabase python-dotenv
 Run server:
 
 uvicorn main:app --reload
+
+
+## Sample Response
+
+[
+  {
+    "id": 1,
+    "name": "LAPTOP",
+    "category": "ELECTRONICS",
+    "price": 71200
+  }
+]
